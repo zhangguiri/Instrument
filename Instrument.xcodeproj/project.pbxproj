@@ -15,6 +15,7 @@
 		048691E320F6E7C100C1FEA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048691E220F6E7C100C1FEA4 /* main.m */; };
 		048691ED20F6E7C100C1FEA4 /* InstrumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048691EC20F6E7C100C1FEA4 /* InstrumentTests.m */; };
 		048691F820F6E7C100C1FEA4 /* InstrumentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048691F720F6E7C100C1FEA4 /* InstrumentUITests.m */; };
+		0486920820F6E92100C1FEA4 /* ZgrInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486920720F6E92100C1FEA4 /* ZgrInstrument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		048691F320F6E7C100C1FEA4 /* InstrumentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048691F720F6E7C100C1FEA4 /* InstrumentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstrumentUITests.m; sourceTree = "<group>"; };
 		048691F920F6E7C100C1FEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0486920620F6E92100C1FEA4 /* ZgrInstrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZgrInstrument.h; sourceTree = "<group>"; };
+		0486920720F6E92100C1FEA4 /* ZgrInstrument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZgrInstrument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		048691D220F6E7BF00C1FEA4 /* Instrument */ = {
 			isa = PBXGroup;
 			children = (
+				0486920520F6E80400C1FEA4 /* New Group */,
 				048691D320F6E7BF00C1FEA4 /* AppDelegate.h */,
 				048691D420F6E7BF00C1FEA4 /* AppDelegate.m */,
 				048691D620F6E7BF00C1FEA4 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				048691F920F6E7C100C1FEA4 /* Info.plist */,
 			);
 			path = InstrumentUITests;
+			sourceTree = "<group>";
+		};
+		0486920520F6E80400C1FEA4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				0486920620F6E92100C1FEA4 /* ZgrInstrument.h */,
+				0486920720F6E92100C1FEA4 /* ZgrInstrument.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				048691D820F6E7BF00C1FEA4 /* ViewController.m in Sources */,
 				048691E320F6E7C100C1FEA4 /* main.m in Sources */,
+				0486920820F6E92100C1FEA4 /* ZgrInstrument.m in Sources */,
 				048691D520F6E7BF00C1FEA4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

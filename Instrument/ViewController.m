@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZgrInstrument.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    NSLog(@"%f\n",[[ZgrInstrument shareInstance] getCPUUseage]);
+    NSLog(@"%f\n",[[ZgrInstrument shareInstance] getMemoryUseage]);
+
+    NSLog(@"%f\n",[[ZgrInstrument shareInstance] getBatteryLevel]);
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
